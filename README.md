@@ -1,0 +1,2 @@
+# davinci_resolve_scripts
+Davinci resolve用のスクリプトを配置
