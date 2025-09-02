@@ -72,7 +72,7 @@ if f then
         -- （今回はあらかじめ作成してあったMacのショートカットappを呼ぶ）
         -- Notionアップロード用ショートカットapp実行
         local escapedPath = string.gsub(path, '"', '\\"')
-        local command = 'shortcuts run "ファイルをNotionにアップロード" -i "' .. escapedPath .. '"'
+        local command = 'shortcuts run "複数ファイルをNotionにアップロード" -i "' .. escapedPath .. '"'
         print("ショートカット実行: " .. command)
         os.execute(command)
     end
